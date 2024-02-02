@@ -90,6 +90,11 @@
     margin: 12px 75px 14px 25px;
 }
 
+#man {
+    padding: 15px 130px 15px 20px;
+    margin: 12px 75px 14px 25px;
+}
+
 .hi {
     padding-left: 28px;
     padding-top: 10px;
@@ -181,12 +186,14 @@
     height: 100px;
     font-family: Raleway, sans-serif;
 }
-#hh{
+
+#hh {
     color: #ff5a60;
     padding: 80px 0px;
     font-size: 54px;
     font-family: Raleway, sans-serif;
 }
+
 .mainsection2 {
     height: 530px;
     width: 20%;
@@ -264,10 +271,11 @@
     height: 300px;
 }
 
-.language1 hr{
+.language1 hr {
     width: 80%;
     margin: 5px auto;
 }
+
 .language1 p {
     font-size: 24px;
     color: #51505d;
@@ -292,16 +300,18 @@
 .language1 a:hover {
     text-decoration: underline;
 }
-.language1-handle{
+
+.language1-handle {
     display: flex;
     justify-content: center;
 }
 
-.download{
+.download {
     background-color: #eee;
     height: 100px;
     margin-top: 80px;
 }
+
 .download h1 {
     color: #ff5a60;
     padding: 30px 0px;
@@ -317,12 +327,14 @@
     width: 100%;
     height: 900px;
 }
-.lastmain img{
+
+.lastmain img {
     height: 80px;
     width: 80px;
     margin: 50px 0px;
 }
-.lastmain p{
+
+.lastmain p {
     font-size: 23px;
     color: #72727d;
     width: 75%;
@@ -330,7 +342,8 @@
     line-height: 1.5;
     text-align: justify;
 }
-.lastmain span{
+
+.lastmain span {
     font-size: 23px;
     color: #00bcd5;
     width: 75%;
@@ -339,16 +352,302 @@
     cursor: pointer;
 }
 
-#don{
+#don {
     margin-bottom: 125px;
 }
 
-.footer{
+.footer {
     height: 70px;
     width: 100%;
     background-color: #eeeeee;
 }
-.footer p{
+
+.footer p {
     font-size: 20px;
     padding-top: 18px;
+}
+
+/* media query */
+
+@media screen and (min-width:320px)and (max-width:767px) {
+    body {
+        width: auto;
+    }
+
+    .nav {
+        background-image: url(mobile.jpg);
+        width: auto;
+        height: 880px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .nav1 {
+        width: auto;
+        height: 80px;
+    }
+
+    .nav1 ul {
+        margin-top: 67px;
+        margin-right: 50px;
+    }
+
+    .nav1 a {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .nav1 img {
+        margin-left: 40px;
+        margin-top: 30px;
+        height: 90px;
+        width: 90px;
+    }
+
+    nav2 {
+        margin-top: 80px;
+        line-height: 1.3;
+    }
+
+    .nav2 h1 {
+        font-size: 30px;
+    }
+
+    .nav2 h5 {
+        font-size: 20px;
+    }
+
+    .nav3 {
+        display: flex;
+        height: 240px;
+        width: auto;
+        margin-top: 15px;
+        overflow: scroll;
+    }
+
+    .nav3 table {
+        flex-wrap: wrap !important;
+        background-color: #ff5a60;
+    }
+
+    /* .nav3 select {
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #long {
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #man {
+       padding: 0px;
+        margin: 0px;
+    }
+
+    #short {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .hi {
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 12px;
+        display: flexbox;
+    }
+
+    #diff {
+        padding-right: 10px;
+        font-size: 12px;
+        font-family: Raleway, sans-serif;
+    }
+
+    .nav3 button {
+        border-color: #53b9d2;
+        background-color: #53b9d2;
+        color: white;
+        padding: 0px;
+        margin: 0px;
+        font-size: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    } */
+
+
+    .someone {
+        height: 1450px;
+        width: auto;
+    }
+
+    .someone1 {
+        height: 500px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .someone h1 {
+        color: #ff5a60;
+        padding: 60px 0px;
+        font-size: 34px;
+        width: 100%;
+        height: 60px;
+    }
+
+    .some {
+        width: 80%;
+        height: 370px;
+        line-height: 1.7;
+        margin: 35px auto;
+        font-family: Raleway, sans-serif;
+    }
+
+    .some img {
+        margin-top: 15px;
+    }
+
+
+    .mainsection {
+        width: auto;
+        height: 3300px;
+    }
+
+    .mainsection h1 {
+        color: #ff5a60;
+        padding: 40px 10px;
+        font-size: 34px;
+        margin: 10px auto;
+        width: auto;
+        height: 100px;
+    }
+
+    .mainsection3 {
+        height: 520px;
+        display: flex;
+        justify-content: space-evenly;
+        width: auto;
+    }
+
+    .mainsection2 {
+        height: 460px;
+        width: 80%;
+        box-shadow: 8px 8px 30px black;
+    }
+
+    .mainsection2 p {
+        font-size: 20px;
+        padding: 20px;
+        line-height: 1.4;
+    }
+
+    .mainsection2 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .indexv {
+        display: none;
+    }
+
+    .mainsection2 h2 {
+        font-size: 34px;
+    }
+
+    .mainsection1 {
+        width: auto;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .mainsection1 p {
+        font-size: 24px;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .mainsection1 button {
+        width: 170px;
+        font-size: 20px;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    #hh {
+        padding: 60px 0px;
+        font-size: 34px;
+        width: 100%;
+        height: 60px;
+    }
+
+ .language {
+        height: 1050px;
+        width: auto;
+        display:inline-block;
+        justify-content: space-evenly;
+    }
+    
+    .language1 {
+        width: 90%;
+        height: 300px;
+        margin: 25px auto;
+    }
+    .download {
+        height: 100px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .download h1 {
+        padding: 33px 0px 0px 0px;
+        margin: 2px 0px;
+        font-size: 24px;
+    }
+
+    .lastmain {
+        width: auto;
+        height: 1550px;
+    }
+    
+    .lastmain img {
+        height: 80px;
+        width: 80px;
+        margin: 30px 0px;
+    }
+    
+    .lastmain p {
+        font-size: 20px;
+        color: #72727d;
+        width: 90%;
+        margin: 35px auto;
+        line-height: 1.7;
+        text-align: justify;
+    }
+    
+    .lastmain span {
+        font-size: 23px;
+        color: #00bcd5;
+        width: 75%;
+        line-height: 1.5;
+        text-align: justify;
+        cursor: pointer;
+    }
+    
+    #don {
+        margin-bottom: 55px;
+    }
+    
+    .footer {
+        height: 70px;
+        width: auto;
+        background-color: #eeeeee;
+    }
+    
+    .footer p {
+        font-size: 18px;
+        padding-top: 18px;
+    }    
 }
