@@ -715,17 +715,15 @@
     }
 
     .nav3 table {
-        margin: 5px 0px 5px auto;
-    }
-
-    .nav3 .table2 {
-        margin: 5px auto 5px 0px;
-    }
-
-    .nav3 table {
         display: block;
         width: auto;
         background-color: rgba(0, 0, 0, 0.5);
+    }
+    .nav3 table {
+        margin: 0px 0px 0px auto;
+    }
+    .nav3 .table2 {
+        margin: 0px auto 0px 0px;
     }
 
     .table2 {
@@ -1010,13 +1008,19 @@
         font-size: 20px;
     }
 
-    .nav3 table {
-        margin: 5px 0px 5px auto;
+    .nav3 {
+        display: flex;
+        height: 100px;
+        width: auto;
+        margin-top: 15px;
+    } .nav3 table {
+        margin: 0px 0px 0px auto;
+    }
+    .nav3 .table2 {
+        margin: 0px auto 0px 0px;
     }
 
-    .nav3 .table2 {
-        margin: 5px auto 5px 0px;
-    }
+
 
     .nav3 {
         display: flex;
@@ -1295,13 +1299,13 @@
         font-size: 20px;
     }
 
-    .nav3 table {
-        margin: 5px 0px 5px auto;
+    .nav3 {
+        display: flex;
+        height: 100px;
+        width: auto;
+        margin-top: 15px;
     }
 
-    .nav3 .table2 {
-        margin: 5px auto 5px 0px;
-    }
 
     .nav3 {
         display: flex;
@@ -1309,6 +1313,12 @@
         width: 90%;
         margin-top: 15px;
         background-color: rgba(0, 0, 0, 0.5);
+    }
+    .nav3 table {
+        margin: 0px 0px 0px auto;
+    }
+    .nav3 .table2 {
+        margin: 0px auto 0px 0px;
     }
 
     .nav3 select {
@@ -1581,13 +1591,19 @@
         font-size: 20px;
     }
 
+    .nav3 {
+        display: flex;
+        height: 100px;
+        width: auto;
+        margin-top: 15px;
+    }
     .nav3 table {
-        margin: 5px 0px 5px auto;
+        margin: 0px 0px 0px auto;
+    }
+    .nav3 .table2 {
+        margin: 0px auto 0px 0px;
     }
 
-    .nav3 .table2 {
-        margin: 5px auto 5px 0px;
-    }
 
     .nav3 {
         display: flex;
@@ -1875,13 +1891,11 @@
         margin-top: 15px;
         overflow: scroll;
     }
-
     .nav3 table {
-        margin: 5px 0px 5px auto;
+        margin: 0px 0px 0px auto;
     }
-
     .nav3 .table2 {
-        margin: 5px auto 5px 0px;
+        margin: 0px auto 0px 0px;
     }
 
     .nav3 select {
@@ -2161,11 +2175,10 @@
     }
 
     .nav3 table {
-        margin: 5px 0px 5px auto;
+        margin: 0px 0px 0px auto;
     }
-
     .nav3 .table2 {
-        margin: 5px auto 5px 0px;
+        margin: 0px auto 0px 0px;
     }
 
     .nav3 select {
